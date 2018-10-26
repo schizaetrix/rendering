@@ -5,6 +5,7 @@ function renderCircles(circles) {
     return `
         <div class="text-center mt-5">
             <code>${JSON.stringify(circles)}</code>
+            <span style="border-radius:${circles.radius}%;background-color:${circles.color};margin:auto;"></span>
         </div>
     `
 }
